@@ -1,0 +1,387 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}a span{color:red}.fa fa-cart-arrow-down{background:red}
+
+#container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 450px;
+	width: 100%;
+	background: #5c836e; /* Old browsers */
+	background: -moz-linear-gradient(top, #5c836e 0%, #ffffff 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #5c836e 0%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #5c836e 0%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5c836e', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+
+header {
+	height: 80px;
+	padding-top: 15px;
+	margin-left: 1200px;
+}
+
+header div#circle {
+	height: 80px;
+	width: 80px;
+	border-radius: 60px;
+	background-color: #72A88E;
+}
+
+header div#circle i.fa.fa-shopping-cart {
+	font-size: 40px;
+	color: white;
+	padding: 20px 20px
+}
+
+#text h1 {
+	font-family: 'ralewaybold', sans-serif;
+	text-transform: uppercase;
+	color: #2F2F2F;
+	font-size: 85px;
+	margin-top: 50px;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+#text h3 {
+	font-family: 'ralewaythin', sans-serif;
+	text-transform: uppercase;
+	font-size: 35px;
+	color: grey;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+button {
+	background: #72A88E;
+	color: white;
+	font-size: 16px;
+	text-align: center;
+	font-family: 'ralewaybold', sans-serif;
+	text-transform: uppercase;
+	padding: 10px 90px;
+	box-shadow: 2px 2px 2px #72A88E;
+	border: none;
+}
+
+#moretext {
+	background-color: white;
+}
+
+#moretext h5 {
+	font-family: 'ralewaybold', sans-serif;
+	text-transform: uppercase;
+	font-size: 35px;
+	color: #2F2F2F;
+	text-align: center;
+	padding-bottom: 35px;
+}
+
+#moretext span {
+	color: #72A88E;
+}
+
+#moretext p {
+	font-family: 'ralewaythin', sans-serif;
+	color: black;
+	text-align: center;
+	font-size: 18px;
+	padding: 0px 200px;
+}
+
+div#navbar {
+	height: 65px;
+	margin-top: 50px;
+	width: 100%;
+	background-color: #72A88E;
+}
+
+ul {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+}
+
+ li {
+	font-family: 'ralewaybold', sans-serif;
+	text-transform: uppercase;
+	font-size: 18px;
+	color: white;
+	margin: 23px 80px;
+}
+
+footer {
+	margin-top: 90px;
+	height: 250px;
+	background-color: #2F2F2F;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+footer h1 { 
+	font-family: 'ralewaybold', sans-serif;
+	text-transform: uppercase;
+	font-size: 35px;
+	color: white;
+}
+
+footer h3 {
+	font-family: 'ralewaythin', sans-serif;
+	text-transform: uppercase;
+	font-size: 20px;
+	color: white;
+	padding-top: 10px;
+}
+
+input {
+	height: 30px;
+	width: 60%;
+	margin-left: 12px;
+	border: none;
+}
+
+#pill button {
+	background: #72A88E;
+	color: white;
+	font-size: 16px;
+	text-align: center;
+	font-family: 'ralewaybold', sans-serif;
+	text-transform: uppercase;
+	padding: 9px 71px;
+	box-shadow: none;
+	border: none;
+	border-bottom-right-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+#pill {
+	margin-top: 25px;
+	background-color: white;
+	width: 40%;
+	height: 40px;
+	border-radius: 20px;
+	padding-bottom: 2px;
+	padding-top: 1px;
+}
+
+#products div {
+	height: 520px;
+	width: 30%;
+}
+
+.companyname {
+	font-family: 'ralewaybold', sans-serif;
+	text-transform: uppercase;
+	font-size: 30px;
+	color: #2F2F2F;
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+h5.productname {
+	height: 70px;
+	font-family: 'ralewaythin', sans-serif;
+	text-transform: uppercase;
+	font-size: 15px;
+	color: grey;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.productimage {
+	height: 250px;
+	width: auto;
+	margin: 0 auto;
+	padding-bottom: 40px;
+}
+
+.productprice {
+	font-family: 'ralewaybold', sans-serif;
+	text-transform: uppercase;
+	font-size: 20px;
+	color: #72A88E;
+	text-align: center;
+}
+
+div#bar {
+position: relative;
+z-index: 9999;
+display: flex;
+justify-content: center;
+width: 60%;
+margin: 0 20%;
+background-color: #72A88E;
+}
+
+div#bar button { 
+box-shadow: none;
+margin: 0px 155px;
+padding: 20px 0px;
+}
+
+div.bx-wrapper {
+	margin: 50px auto;
+	border: none;
+	box-shadow: none;
+}
+
+.sliderbutton{
+	z-index: 9999;
+	margin-top: 20px;
+	height: 60px;
+	width:100%;
+}
+
+/*THE MODAL*/ 
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/*INSIDE THE MODAL */ 
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#modaltitle {
+	font-family: 'ralewaybold', sans-serif;
+	text-transform: uppercase;
+	color: #2F2F2F;
+	font-size: 40px;
+	text-align: left;
+	padding-bottom: 30px;
+}
+
+div.sectionone{
+	display: flex;
+	padding-bottom: 75px;
+}
+
+.sectionone p {
+	font-family: sans-serif;
+	color: #2F2F2F;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
+#totalitems, #carttotal {
+	color: #72A88E;
+}
+
+#totalitemstext, #carttotaltext{
+	margin-right: 10px;
+}
+
+#line {
+	margin: 0 10px;
+}
+
+
+div#holder {
+	display: flex;
+}
+
+.sectiontwo p {
+	margin-top: 1.5%;
+	font-family: sans-serif;
+	color: #2F2F2F;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
+input#quantityinput {
+	margin-top: 1.25%;
+	height: 25px;
+	width: 50px;
+	border: .5px solid grey;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 14px;
+	color: #72A88E;
+}
+
+#skutext {
+	padding-right: 10px;
+}
+
+#skunumber {
+	padding-right: 40px;
+}
+
+#quantitytext {
+	padding-right: 25px;
+}
+
+#totalcosttext {
+	padding-left: 40px;
+	padding-right: 20px;
+}
+
+button.updatecart {
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	text-align: center;
+	margin-left: 70px;
+	width: 150px;
+	height: 40px;
+	box-shadow: none;
+	border: none;
+	padding: 0;
+	padding-left: 8px;
+}
+
+button#removeitem {
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	text-align: center;
+	width: 150px;
+	height: 40px;
+	padding: 0;
+	box-shadow: none;
+	border: none;
+	background-color: #B22F27;
+}
+
+#holder {
+	width: 100%;
+	margin-bottom: 40px; 
+}
+
+
+/* END OF THE MODAL */ 
+
+
+
