@@ -1,4 +1,4 @@
-![](./home.png)
+![](./home.jpg)
 
 # Best Buy Shopping Cart
 
